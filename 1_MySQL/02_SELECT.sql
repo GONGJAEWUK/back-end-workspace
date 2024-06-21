@@ -256,8 +256,8 @@ WHERE email LIKE '___\_%';
 -- 논리부정연산자 : NOT
 SELECT emp_id, emp_name, email
 FROM employee
--- WHERE NOT email LIKE '___$_' ESCAPE '$';
-WHERE email NOT LIKE '___$_%' ESCAPE '$';
+WHERE NOT email LIKE '___$_' ESCAPE '$';
+-- WHERE email NOT LIKE '___$_%' ESCAPE '$';
 
 /*
    IS NULL / IS NOT NULL
